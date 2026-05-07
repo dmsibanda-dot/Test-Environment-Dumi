@@ -1,0 +1,30 @@
+{
+  "shipment_id": "SHIP-20260507-001",
+  "generated_at": "2026-05-07T08:22:52.274759Z",
+  "courier": "MedTransit",
+  "sample_count": 2,
+  "samples": [
+    {
+      "sample_id": "CLN-1001",
+      "patient_id": "PT-90021",
+      "collection_datetime": "2026-05-07T08:15:00Z",
+      "specimen_type": "Plasma",
+      "volume_ml": 3.5,
+      "storage_temp_c": -20.0,
+      "priority": "ROUTINE",
+      "destination_lab": "Central Lab",
+      "notes": "Follow-up panel"
+    },
+    {
+      "sample_id": "CLN-1002",
+      "patient_id": "PT-90022",
+      "collection_datetime": "2026-05-07T08:30:00Z",
+      "specimen_type": "Serum",
+      "volume_ml": 2.0,
+      "storage_temp_c": 4.0,
+      "priority": "STAT",
+      "destination_lab": "Immunology Lab",
+      "notes": "Expedite processing"
+    }
+  ]
+}
